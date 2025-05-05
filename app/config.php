@@ -2,8 +2,8 @@
 
 define('SERVIDOR','localhost');
 define('USUARIO','root');
-define('PASSWORD','30060430');
-define('BD','ESTACIONAMIENTO2');
+define('PASSWORD','JersonxMysql123');
+define('BD','estacionamiento');
 
 $servidor = "mysql:dbname=".BD.";host=".SERVIDOR;
 
@@ -15,7 +15,7 @@ try{
     echo "<script>alert('Error en la base de datos')</script>";
 }
 
-$URL="http://localhost/www.sistemaestacionamiento2.com";
+$URL="http://localhost/SistemaEstacionamiento";
 
 $estado_del_registro = "1";
 
